@@ -1,1 +1,43 @@
-local _qvxadm="cHJpbnQoImhkZmdiZ2dodWR2aWRoZ2JnaGVyZ2JnZGZoYmdiZGZiZ2lyZWloZ2JlZGhpYnZzZmh2aWJkZmlnaGJkZmhqdmRmamh2dmRmamh2YmJiZWZnaGpiZWZqZmhiYmRyamhiZ2dza2ZqZ2JkZmtoZ2pka2piZmdnZGpoZmZnZ2RnZmRkYmpqZ2Vmam5nZ2Riam5mZ2Riam5jZ2VibmpmZ2JtbmVmZ2pqbmRkZmdtbmJpIik="local _ucuzzi=""for i=1,#_qvxadm do local c=_qvxadm:byte(i)local b=c>=65 and c<=90 and c-65 or c>=97 and c<=122 and c-71 or c>=48 and c<=57 and c+4 or c==43 and 62 or c==47 and 63 or nil if b then _ucuzzi=_ucuzzi..string.char(b)end end local _jhlpjo=""for i=1,#_ucuzzi,4 do local n=0 for j=1,4 do n=n*64+(_ucuzzi:byte(i+j-1)or 0)end for j=1,3 do if i+j-1<=#_ucuzzi then _jhlpjo=_jhlpjo..string.char(math.floor(n/2^(8*(3-j)))%256)end end end loadstring(_jhlpjo)()
+-- V6 PROTECTED
+local _apugmtry="PW9sUUVGR1RPSmpVTFpGV1doRmJxTlZhb3hXVXhRbVZpaDNjSHAxVkNoMFVZQlhiVEZtU3RabFNzTmpWWUpFVk5obVI2SldOMVUwVlhaVWJWaFhRWVJtV3hjVlRVcFViV05uVXVSRldTNTJWcHBsUmpoM1l4RTJhRzFXVzRoelZsWlZNWDlFYUtKalZUcEZTV1ZuUXVGbVRXWmtUMm9rTVNWVFJYUlZjYVpGWmFSbVZOSm5UeVkxVVNoVldJWkZSaE5sU3FWbE1reFdZTGx6VlVaa1ZxNTBWU3gyVVFSV01TcEhhWWRsVm9KVFZQWmxWT1pGYnNWMlI0SmpWSEJYUmpoVk1YMWtjT2RsWUd4Mk1aaGtVWWxsVHhjVVl4d0diV3RtVHNsMWNDaEVaaGgyYVM5bVNXMTBTV05qVjBaa2VobG1SRU5XU2tabFl4VTBWVVJIYXVSR1cwZGtXb3AwVk5aSGJ6a0ZTU2hWV3BSbVJoRkRic1oxYU9OVFdYSkVTVEZHWlYxRWF4VWxZMFFtYlhka1V5VVZhYUZqWTJvMFJUTkVkdFpGZXZWRVpocGxSYUZYTUYxRU1yaGxWeHBsVlpsR1pXVkZOc3htVnJSWGJVZFVPdFYyVjEwMlVvcFViV3RrVllkVlYxQWpWb1pFUmlGalZXSldNbmRGVjFwRWJraEZkSHBGVEsxbVYzSmxiWGhrVkVGbVR4Y1VZNVJXTVdoWFJ0bEZkV1ZWWm9SV1JrRm1TdFoxZFdoMVZWQkhNaWhtUkVOR01PWmxZeGNXYlpoRmF0TkdXeGNWVHlaMFZXTm5RWWxsTkNSRlU="
+local _etwrdcgb=_apugmtry
+for _gphxsfkz=1,4 do
+  if _gphxsfkz%2==1 then
+    _etwrdcgb=string.reverse(_etwrdcgb)
+  end
+  local _obqjbqkh=""
+  for _yqsqjrcy=1,#_etwrdcgb do
+    local _menmftgi=_etwrdcgb:byte(_yqsqjrcy)
+    if _menmftgi>=65 and _menmftgi<=90 then
+      _menmftgi=_menmftgi-65
+    elseif _menmftgi>=97 and _menmftgi<=122 then
+      _menmftgi=_menmftgi-71
+    elseif _menmftgi>=48 and _menmftgi<=57 then
+      _menmftgi=_menmftgi+4
+    elseif _menmftgi==43 then
+      _menmftgi=62
+    elseif _menmftgi==47 then
+      _menmftgi=63
+    else
+      _menmftgi=nil
+    end
+    if _menmftgi then
+      _obqjbqkh=_obqjbqkh..string.char(_menmftgi)
+    end
+  end
+  local _vdzohncd=""
+  for _vrslehah=1,#_obqjbqkh,4 do
+    local _muckitwm=0
+    for _ejdtrsnj=1,4 do
+      local _vatsguyc=_obqjbqkh:byte(_vrslehah+_ejdtrsnj-1)or 0
+      _muckitwm=_muckitwm*64+_vatsguyc
+    end
+    for _ejdtrsnj=1,3 do
+      if _vrslehah+_ejdtrsnj-1<=#_obqjbqkh then
+        _vdzohncd=_vdzohncd..string.char(math.floor(_muckitwm/2^(8*(3-_ejdtrsnj)))%256)
+      end
+    end
+  end
+  _etwrdcgb=_vdzohncd
+end
+loadstring(_etwrdcgb)()
